@@ -1,0 +1,213 @@
+@font-face{
+    font-family: "RedHatMono";
+    src: url("../Fonts/RedHatMono-VariableFont_wght.ttf")
+
+}
+@font-face{
+    font-family: "StickNoBills";
+    src: url("../Fonts/StickNoBills-VariableFont_wght.ttf")
+
+}
+
+a {
+    text-decoration: none;
+}
+header{
+    font-family: "RedHatMono";
+    display: flex;
+    justify-content: space-between;
+    padding: 48px 48px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    mix-blend-mode: multiply;
+}
+nav a{
+    font-size: 1.5vw;
+}
+.header-center{
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    position: absolute;
+    top: 48px; 
+    width: 100%;
+}
+main{
+    color: black;
+}
+.column-container{
+    display: flex;
+    position: relative;
+    align-items: flex-end;
+    padding-left: 48px;
+    padding-right: 48px;
+}
+.capital-letters:hover h2{
+    text-decoration: underline;
+}
+.left-column{
+    display: flex;
+    flex-direction: column;
+    padding-top: 72px;
+    width: 60%;
+}
+.arrow-text20px{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 128px;
+    gap: 24px 304px;
+    padding-left: 48px;
+    padding-right: 48px;
+}
+.me-img{
+    display: flex;
+    padding-top:200px;
+    padding-left: 48px;
+}
+.yo{
+    width: 100%;
+}
+.column-right{
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    width: 40%;
+}
+.chapa-corta{
+    display: flex;
+    padding-top: 120px;
+    position: relative;
+    padding-left: 48px;
+    padding-right: 48px;
+}
+.numero-uno{
+    display: flex;
+    position: relative;
+    width: 20%;
+}
+.bonitas-palabritas{
+    display: flex;
+    position: relative;
+    width: 80%;
+    flex-direction: column;
+    padding-left: 200px;
+}
+.hasta-lafamilia{
+    display: flex;
+    padding-top: 124px;
+}
+.chapa-pesadita{
+    display: flex;
+    position: relative;
+    padding-top: 200px;
+    padding-left: 48px;
+    padding-right: 48px;
+}
+.sobrado{
+    display: flex;
+    position: relative;
+    width: 30%;
+}
+.comprame{
+    display: flex;
+    position: relative;
+    width:70%;
+    line-height: 24px;
+    padding-left: 280px;
+    padding-bottom: 280px;
+}
+.header-projects{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 124px;
+    padding-left: 48px;
+    padding-right: 48px;
+}
+.project-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-bottom: 72px;
+}
+.project-info{
+    grid-column: 1/2;
+    text-align: center;
+}
+.project-image{
+    grid-column: 2/2;
+    object-fit: contain;
+}
+.project-image img{
+    width: 100%;
+}
+
+.section-final{
+    padding-top: 72px;
+}
+.vergogna{
+    display: flex;
+    text-align: justify;
+    width: 50vw;
+    margin: 30vh 20% 30vh 20%;
+}
+.email{
+    text-align: right;
+    margin-bottom: 96px;
+}
+.email a{
+    font-size: 128px;
+    width: 100px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-left: 48px;
+    padding-right: 48px;
+}
+.footer-left{
+    display: flex;
+    column-gap: 88px;
+    align-items: center;
+}
+.footer-middle{
+    font-size: 24px;
+    display: flex;
+    column-gap: 88px;
+    align-items: center;
+}
+.footer-right{
+    display: flex;
+    column-gap: 88px;
+    align-items: center;
+}
+h3,h4,h5,a{
+    font-family: "RedHatMono";
+    color: black
+}
+h1 {
+    font-family: "RedHatMono";
+    color: black;
+    font-size: 24px;
+}
+h2 {
+    font-family: "StickNoBills";
+    color: black;
+    font-size: 128px;
+    text-align: center;
+}
+
+h2:hover {
+    text-decoration: underline
+}
+h3 {
+    font-size: 48px;
+    text-align: left;
+}
+h4 {
+    font-size: 24px;
+}
+h5{
+    font-size: 20px;
+    text-align: left;
+}
